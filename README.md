@@ -10,7 +10,7 @@ I am a technology enthusiast driven by a passion for creativity, analytics, and 
 
 ## Portfolio Overview
 
-In this portfolio, you will find a showcase of some of my most exciting projects and accomplishments in the field of Data Science. I have carefully curated each project to highlight various aspects of data analysis, visualization, and machine learning.
+In this portfolio, you will find a showcase of some of my most exciting projects and accomplishments in the field of Data Science. I have carefully curated each project to highlight various aspects of data analysis, visualization, data science, and machine learning.
 
 ## Projects
 
