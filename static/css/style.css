@@ -1,3 +1,12 @@
+.hero {
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("../images/3b8ad2c7b1be2caf24321c852103598a.jpg") center/cover no-repeat;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
 .jumbotron {
   text-align: center;
   background-image: url("../images/3b8ad2c7b1be2caf24321c852103598a.jpg");
@@ -109,3 +118,4 @@ body {
   height: auto;
   margin-bottom: 15px;
 }
+
