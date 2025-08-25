@@ -6,6 +6,9 @@
   <title>Justynn's Portfolio</title>
   <!-- Use relative paths for internal stylesheets -->
   <link rel="stylesheet" href="static/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <!-- Include Bootstrap via CDN for ease of use -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Use a favicon related to your portfolio -->
@@ -25,10 +28,16 @@
           <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
+          <a class="nav-link" href="resume.html"> Resume <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
           <a class="nav-link" href="about_me.html"> About Me <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="projects.html"> Projects <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="algorithms.html"> Algorithms <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="contacts.html"> Contact <span class="sr-only">(current)</span></a>
@@ -37,34 +46,60 @@
     </div>
   </nav>
 
-  <!-- Jumbotron -->
-  <div class="jumbotron">
-    <div id='intro'>
-      <h1 class="display-4">Welcome to My Portfolio!</h1>
-      <p class="lead">Personal website and Portfolio</p>
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <h1 class="display-4">Justynn Hammond</h1>
+      <p class="lead">Senior Decision Support Analyst &amp; Data Scientist</p>
+      <a class="btn btn-primary btn-lg" href="resume.html" role="button">View Resume</a>
     </div>
-    <a class="btn btn-primary btn-lg" href="about_me.html#resume" role="button">My Resume</a>
-  </div>
+  </header>
 
   <!-- About Me Section -->
   <section id="bio1">
     <div class="container">
       <div class="row">
         <div class="col-md-7">
-          <h2>Introduction</h2>
-          <p>
-            Hello, my name is Justynn Hammond. I am currently enrolled in the Mater's Degree Program at The Jim Moran College of Entrepreneurship at The Florida State University. I will complete this program in 2026. I have 6 years of expeeriance as a Sr. Data Analyst, focusing on advanced data programming languages and tools for a future in Data Science.
-          </p>
-          <p>
-            I graduated from the Rogers State Univeristy in 2013 with a BS in Commmuinication Management. I also graduated from Univeristy of Denver in 2021 in Computer Science. I am a Cetified Analytics Professional (CAP) welcome to my resume portfolio.
-           I have succeced in my professional career in Healthcare, Logisticts, Public/Privite entities, Rail Data, and Data Science.  
-            I have worked with top companies such as State of Florida, Amazon, OmniTrax, FedEx, and National Jewish Health. I have been driven by my passion for technology, 
-            and my ability to be highly creative and analytical has lead me see that I am a valuable asset to any organization.
-          </p>
+          <h2>About Me</h2>
+          <p>I'm Justynn Hammond, a Certified Analytics Professional who turns complex data into actionable strategy. I currently serve as a Senior Decision Support Analyst for the Florida Office of the Attorney General and as a Data Analyst with The Greentree Group. Recent contract work for the State of Florida's Department of Emergency Management strengthened data pipelines and visual analytics for critical operations.</p>
+          <p>With experience spanning rail logistics, health care, and biotech leadership, I love blending technology and storytelling to solve problems. This portfolio shares my latest work and resources for fellow data scientists.</p>
           <a href="about_me.html">Learn more about me.</a>
         </div>
-        <div class="col-md-5">
-          <img src="static/images/Linkedin Pic JH.png" alt="Justynn Hammond" width="350px">
+        <div class="col-md-5 text-center">
+          <img src="static/images/Linkedin Pic JH.png" alt="Justynn Hammond" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Current Roles -->
+  <section id="roles" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Current Roles</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Senior Decision Support Analyst</h5>
+              <p class="card-text">Florida Office of the Attorney General<br><small>Aug 2024 – Present</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Data Analyst</h5>
+              <p class="card-text">The Greentree Group<br><small>Jul 2024 – Present</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Data Management Specialist</h5>
+              <p class="card-text">State of Florida (Contract)<br><small>Apr 2024 – Aug 2024</small></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -124,4 +159,3 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
