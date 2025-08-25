@@ -96,4 +96,16 @@ footer {
 
 .btn-primary {
   margin: 5px;
+
+}
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.algo-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
 }
