@@ -118,4 +118,32 @@ body {
   height: auto;
   margin-bottom: 15px;
 }
+}
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.algo-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.card {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
 
